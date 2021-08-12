@@ -66,3 +66,17 @@ plt.xlabel('t, seg')
 plt.ylabel('x(t)')
 plt.grid(True)
 plt.show()
+
+
+#ahora se graficará el espectro de frecuencias
+
+for i in range(len(frecs)):
+    x = [[frecs[i], frecs[i]]]
+    y = [[0, abs(coeficientes[i])]]
+    plt.plot(x[0], y[0])
+plt.title('Espectro de amplitud')
+plt.xlabel('f(Hz)')
+plt.ylabel('A')
+plt.grid(True)
+plt.ylim(0,5)
+plt.show()
