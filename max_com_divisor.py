@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 #ingereso de frecuencias y coeficientes de x(t)
 
-frecs = [25,50, 100, 150,200]  #frecuencias de menor a mayor
-coeficientes = [2,3, -4, 0.7,7] #coeficientes según frecuencias correspondientes
+frecs = [50, 100, 150]  #frecuencias de menor a mayor
+coeficientes = [3, -4, 0.7,] #coeficientes según frecuencias correspondientes
 
 
 def encontrar_mcd(x,y):
