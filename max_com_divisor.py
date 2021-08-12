@@ -28,7 +28,9 @@ armonicas = [k/frecuencia for k in frecs]
 for i in range(len(frecs)):
     print ('%5d, %d' %(frecs[i], armonicas[i]))
 
+
 print("")
+
 
 #obtener los resultados en una tabla incluyendo el periodo
 
@@ -37,6 +39,7 @@ amplitudes = [abs(k) for k in coeficientes]
 periodos = [1./k for k in frecs]
 for i in range(len(frecs)):
     print('%5.1f %12d %14.3f %7d' %(amplitudes[i], frecs[i], periodos[i], armonicas[i]))
+
 print("")
 
 #El siguiente código sirve para graficar
